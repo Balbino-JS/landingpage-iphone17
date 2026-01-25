@@ -5,7 +5,8 @@ import NavBar from './assets/componentes/NavBar.jsx'
 import Hero from './assets/componentes/Hero.jsx'
 import Intro from './assets/componentes/Intro.jsx'
 import Highlights from './assets/componentes/Highlights.jsx'
-
+import Colors from './assets/componentes/Colors.jsx'
+import Footer from './assets/componentes/Footer.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,5 +15,7 @@ createRoot(document.getElementById('root')).render(
    <Hero />
    <Intro />
    <Highlights />
+   <Colors />
+   <Footer />
   </StrictMode>,
 )
